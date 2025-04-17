@@ -1,4 +1,5 @@
 import plotly.graph_objects as go
+import plotly.io as pio
 import numpy as np
 import json
 
@@ -44,7 +45,7 @@ def create_visualizations(time_series, power_spectrum):
     )
     
     # Convert figures to JSON
-    time_series_plot_json = json.dumps(time_series_fig, cls=plotly.utils.PlotlyJSONEncoder)
-    power_spectrum_plot_json = json.dumps(power_spectrum_fig, cls=plotly.utils.PlotlyJSONEncoder)
+    time_series_plot_json = pio.to_json(time_series_fig)
+    power_spectrum_plot_json = pio.to_json(power_spectrum_fig)
     
     return time_series_plot_json, power_spectrum_plot_json 

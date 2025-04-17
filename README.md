@@ -52,12 +52,7 @@ python -m pip install --upgrade pip setuptools wheel
 
 4. Install the required packages:
 ```bash
-pip install flask>=3.0.0
-pip install numpy>=2.0.0
-pip install scipy>=1.12.0
-pip install pandas>=2.2.0
-pip install plotly>=5.18.0
-pip install python-dotenv>=1.0.0
+pip install -r requirements.txt
 ```
 
 ### Running the Application
