@@ -35,14 +35,14 @@ cd CycleWorks-Bazaar
 
 For Windows:
 ```bash
-python -m venv venv
+python3.11 -m venv venv
 .\venv\Scripts\activate
 ```
 
 For Linux/Mac:
 ```bash
-python -m venv venv
-source venv/bin/activate
+python3.11 -m venv venv
+source venv/Scripts/activate
 ```
 
 3. Upgrade pip and install build tools:
@@ -52,7 +52,12 @@ python -m pip install --upgrade pip setuptools wheel
 
 4. Install the required packages:
 ```bash
-pip install -r requirements.txt
+pip install flask>=3.0.0
+pip install numpy>=2.0.0
+pip install scipy>=1.12.0
+pip install pandas>=2.2.0
+pip install plotly>=5.18.0
+pip install python-dotenv>=1.0.0
 ```
 
 ### Running the Application
@@ -64,7 +69,7 @@ python app.py
 
 2. Open your web browser and navigate to:
 ```
-http://localhost:5000
+http://127.0.0.1:5000
 ```
 
 3. Upload a CSV file containing stock price data with the following format:
@@ -123,9 +128,9 @@ If you encounter any issues during installation:
 1. Ensure you have the correct Python version installed
 2. Try installing packages one by one:
 ```bash
-pip install flask==2.3.3
+pip install flask>=3.0.0
 pip install numpy>=2.0.0
-pip install scipy>=1.11.4
+pip install scipy>=1.12.0
 pip install pandas>=2.2.0
 pip install plotly>=5.18.0
 pip install python-dotenv>=1.0.0
@@ -309,9 +314,9 @@ The following tools and libraries are required:
 ## Sample Requirements.txt
 
 ```python
-flask==2.3.3
-numpy==1.26.0
-scipy==1.11.4
-pandas==2.2.0
-plotly==5.18.0
+flask>=3.0.0
+numpy>=2.0.0
+scipy>=1.12.0
+pandas>=2.2.0
+plotly>=5.18.0
 ```
