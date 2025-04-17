@@ -1,6 +1,8 @@
 ```python
 # The Bazaar: CycleWorks
 
+Project Repository: https://github.com/Icradle-Innovations-Ltd/CycleWorks-Bazaar.git
+
 Group Members:
 Amanya Peter – 2024bcs033@std.must.ac.ug
 Doreen Miracle – 2024bcs130@std.must.ac.ug
