@@ -13,7 +13,7 @@ Nanjuki Daphine – 2024BCS129@std.must.ac.ug
 Rwendeire Joshua Truth – 2024BCS148@std.must.ac.ug
 Katusiime Moreen – 2024bcs084@std.must.ac.ug
 
-# Stock Market Signal Processing Web App
+# Stock Market Signal Processing Web App (CycleWorks)
 
 ## Define Clear Objectives
 
