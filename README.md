@@ -1,4 +1,3 @@
-
 ```python
 # The Bazaar: CycleWorks
 
@@ -208,9 +207,7 @@ The following tools and libraries are required:
 ```python
 flask==2.3.3
 numpy==1.26.0
-
 scipy==1.11.4
 pandas==2.2.0
-
 plotly==5.18.0
 ```
